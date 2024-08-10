@@ -1,3 +1,4 @@
+/* Estilos generales para el cuerpo del documento */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -5,6 +6,7 @@ body {
     padding: 20px;
 }
 
+/* Contenedor principal */
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -14,17 +16,20 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para el título principal */
 h1 {
     text-align: center;
     color: #333;
 }
 
+/* Estilo para las etiquetas */
 label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
+/* Estilo para el campo de entrada de texto */
 input[type="text"] {
     width: calc(100% - 22px);
     padding: 10px;
@@ -33,10 +38,11 @@ input[type="text"] {
     border-radius: 4px;
 }
 
+/* Estilo para el botón */
 button {
     width: 100%;
     padding: 10px;
-    background-color: #00aaff;
+    background-color: #ff0000;
     color: white;
     border: none;
     border-radius: 4px;
@@ -44,20 +50,24 @@ button {
     font-size: 16px;
 }
 
+/* Estilo para el botón al pasar el cursor */
 button:hover {
-    background-color: #0070cc;
+    background-color: #cc0000;
 }
 
+/* Estilo para los subtítulos */
 h2 {
     margin-top: 20px;
     color: #333;
 }
 
+/* Estilo para las listas */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Estilo para los elementos de las listas */
 li {
     padding: 8px;
     background-color: #f9f9f9;
